@@ -1,0 +1,21 @@
+p
+{
+    color: red;
+    background-color: yellow;
+}
+
+#exampleIdSelector
+{
+    color: blueviolet;
+    background-color: transparent;
+}
+
+.background-blue
+{
+    background-color: lightblue;
+}
+
+.color-darkblue
+{
+    color: darkblue;
+}
