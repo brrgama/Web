@@ -1,21 +1,33 @@
-p
+p /*element selector*/
 {
     color: red;
     background-color: yellow;
 }
 
-#exampleIdSelector
+#exampleIdSelector /*id selector*/
 {
     color: blueviolet;
     background-color: transparent;
 }
 
-.background-blue
+.background-blue /*class selector*/
 {
     background-color: lightblue;
 }
 
-.color-darkblue
+.color-darkblue /*class selector*/
 {
     color: darkblue;
+}
+
+#color-and-background
+{
+    color: rgb(255, 100, 0);
+    background-color: #ffffff;
+}
+
+#color-with-alpha
+{
+color: rgba(255, 100, 0, 0.5);
+background-color: #afafaf6b;
 }

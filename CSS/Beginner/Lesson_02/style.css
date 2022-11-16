@@ -1,0 +1,67 @@
+#div_1 /*ID selector*/
+{
+    height: 300px;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+p /*Element selector*/
+{
+    background-color: rgb(200, 200, 120);
+}
+
+#div_2 
+{
+    height: 300px;
+    width: 500px;    
+    background-image: url('./Images/abstract.jpg');
+}
+
+#div_2_1 
+{
+    height: 300px;
+    width: 500px;    
+    background-image: url('./Images/abstract.jpg');
+    background-size: cover;
+}
+
+#div_2_2 
+{
+    height: 300px;
+    width: 500px;    
+    background-image: url('./Images/abstract.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#div_3
+{
+    height: 300px;
+    width:500px;
+    background-image: url('./Images/texture.png');
+}
+
+body
+{
+    /*The background image can also be applied to the whole page, with the body element.*/
+    background-image: url('./Images/ceramic.jpg');
+}
+
+#p_1
+{
+    width: 300px;
+    background-image: url('./Images/abstract.jpg');
+    background-attachment: fixed;
+}
+
+#div_4
+{
+    height: 300px;
+    width:500px;
+    /*Shorthand*/
+    background: rgb(240, 100, 100) url('./Images/abstract.jpg') no-repeat bottom left;
+
+    /*Complementations*/
+    background-size: cover;
+    
+}
