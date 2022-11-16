@@ -62,6 +62,12 @@ body
     background: rgb(240, 100, 100) url('./Images/abstract.jpg') no-repeat bottom left;
 
     /*Complementations*/
-    background-size: cover;
+    background-size:contain;
     
+}
+
+.green
+{
+    height: 100px;
+    background: linear-gradient(43deg, red,30%,blue 70%, yellow); /*CSS function*/    
 }
