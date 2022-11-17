@@ -69,5 +69,5 @@ body
 .green
 {
     height: 100px;
-    background: linear-gradient(43deg, red,30%,blue 70%, yellow); /*CSS function*/    
+    background: linear-gradient(43deg, green,50%,blue 70%, yellow); /*CSS function*/    
 }

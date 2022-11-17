@@ -1,0 +1,12 @@
+#pictureWhale
+{
+   width: 500px; /*Property width with value 500 pixels.*/
+}
+
+#div_1
+{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+    font-size: 50px;
+}
