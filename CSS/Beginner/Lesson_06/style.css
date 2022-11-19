@@ -1,0 +1,28 @@
+body
+{
+    font-family: sans-serif; /*Define all elements with sans-serif fonts.*/
+}
+
+.sans-serif
+{
+    font-family:Arial, sans-serif; /*Arial is a sans-serif font family. If Arial is not available, it will be used a back-up font, in this case, the sans-serif. It is importatn always to use back-up fonts, they must be separated by comma.*/ 
+}
+
+.serif
+{
+    font-family: "Times New Roman"; /*For a font with more than one word, it must be used cotes.*/
+}
+
+.monospace
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.monospace-italic
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 900;
+    font-variant: small-caps;
+}
