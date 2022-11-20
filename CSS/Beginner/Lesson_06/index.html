@@ -6,24 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
     <link rel="stylesheet" href="./style.css">
+
+    <!--Link for the custom font.-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: myFont_01;
+            src: url(./Fonts/Pacifico-Regular.ttf);
+        }
+    </style>
+
 </head>
 <body>
     <h1>About Fonts</h1>
-    <h2>Sans-Serife</h2>
+
+    <h2>Generic Fonts</h2>
+
+    <h3>Sans-Serife</h3>
 
     <div class="sans-serif">
         <p>In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes. Sans-serif typefaces tend to have less stroke width variation than serif typefaces. They are often used to convey simplicity and modernity or minimalism.</p>
     </div>
     
 
-    <h2>Serife</h2>
+    <h3>Serife</h3>
 
     <div class="serif">
         <p>In typography, a serif is a small line or stroke regularly attached to the end of a larger stroke in a letter or symbol within a particular font or family of fonts. A typeface or "font family" making use of serifs is called a serif typeface (or serifed typeface), and a typeface that does not include them is sans-serif. Some typography sources refer to sans-serif typefaces as "grotesque" (in German, grotesk) or "Gothic", and serif typefaces as "roman".</p>
     </div>
     
 
-    <h2>Monospace</h2>
+    <h3>Monospace</h3>
 
     <div class="monospace">
         <p>A monospaced font, also called a fixed-pitch, fixed-width, or non-proportional font, is a font whose letters and characters each occupy the same amount of horizontal space.This contrasts with variable-width fonts, where the letters and spacings have different widths.</p>
@@ -35,7 +49,24 @@
         </p>
 
     </div>
+
+    <h2>Custom Fonts</h2>
+
+    <p>It is possible to add custom fonts. Steps to to that:</p>
+    <ol>
+        <li>
+            Access: <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>            
+        </li>
+        <li>
+            Chose a font, for example, Dancing Script
+        </li>
+        <li>Get the font link and add it with the <b>link</b> tag in the <b>head</b> of the HTML file, like it is done in this file. </li>
+        <li>Use the font-famlily as defined in the google fonts.</li>
+    </ol>
+
+    <p style="font-family:'Dancing Script', cursive; font-size: 30px;"> This paragraph has the font-family Dancing Script.</p>
     
+    <p style="font-family: myFont_01; font-size: 30px;">It is also possible to download a font and use it, like presented in this very paragraph.To do that, it is necessary to add a font-face in the <b>head</b> section, like is shown in this file. </p>
 
 </body>
 </html>
