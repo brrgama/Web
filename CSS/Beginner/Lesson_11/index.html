@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Horizontal alignment</h1>
+    
+    <p>If the element occupies the entire page, like the <b>div</b> element, it can be used the properties <b>margin-left and margin-right</b> with the values <b>auto</b> to centralize this element, like the next example.</p>
+
+    <div id="div_01"></div>
+
+    <p>Another possibility to do that is by using the shorthand <b>margin: auto</b>.</p>
+
+    <div id="div_02"></div>
+
+    <p>Since the paragraph element (<b>p</b>) occupies the entire screen, it can also be used the properties <b>margin-left and margin-right</b> with the values <b>auto</b> to centralize this element, like the next example.</p></p>
+
+    <p id="p_01">This text will go to the center of the screen.</p>
+
+    <p id="p_02">And here is an example of the use of the shothand <b>margin: auto</b> for a paragraph with the text centralized with the <b>text-align</b> property.</p>
+
+    <p id="p_03">But care must be taken if two consecutive elements both use <b>margin:auto</b>. Since this property eliminates the margin from all directions of the element, if two elements are defined with it, they will be near to each other.</p>
+
+    <p>If the element does not occupy the entire screen, like an image (<b>img</b> element), the property <b>margin</b> will not work to do the alignment of the element.</p>
+    
+    <img id="img_01" src="https://img.freepik.com/free-photo/single-green-tree-clear-sky_181624-46695.jpg?w=740&t=st=1669141614~exp=1669142214~hmac=9186e9549d2677e3244ed9943023278778a51769a292cca33c0c922cac15921b" alt="tree">
+
+    <p>Therefore, to centralize an image, it must be used a <b>div</b> as a father of the image and set the <b>text-align:center</b> property of the <b>div</b>, like the next example.</p>
+
+    <div id="div_03">
+        <img id="img_02" src="https://img.freepik.com/free-photo/single-green-tree-clear-sky_181624-46695.jpg?w=740&t=st=1669141614~exp=1669142214~hmac=9186e9549d2677e3244ed9943023278778a51769a292cca33c0c922cac15921b" alt="tree">
+    </div>
+
+
+</body>
+</html>
