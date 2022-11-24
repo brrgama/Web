@@ -1,0 +1,33 @@
+#ul_01
+{
+    list-style: none;
+}
+
+#ol_01
+{
+    list-style: lower-alpha;
+}
+
+.ul_02
+{
+    list-style-image: url(./Images/icon.png);
+}
+
+.ol_02
+{
+    background-color: darkcyan;
+    list-style: lower-greek;
+    padding: 10px;
+    
+}
+
+.li_01
+{
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 5px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
